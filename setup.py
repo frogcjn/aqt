@@ -27,7 +27,7 @@ except IOError:
 
 jax_legacy_install_requires = [
     "numpy>=1.16.4",
-    "jax>=0.3.4",
+    "jax==0.5.3",
     "flax>=0.4.1",
     "tensorflow>=2.3.1",
     "tensorflow-datasets>=4.5.2",
@@ -37,7 +37,7 @@ jax_legacy_install_requires = [
 
 setup(
     name="aqtp",
-    version="0.1.0",
+    version="0.8.2",
     description="AQT: Accurate Quantized Training",
     long_description="\n\n".join([README]),
     long_description_content_type="text/markdown",
